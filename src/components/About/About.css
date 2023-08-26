@@ -1,0 +1,30 @@
+.meet{
+    margin: 20px 20px;
+    color: #3498db;    
+}
+.about-us {
+    padding: 30px 0;
+    text-align: center;
+  }
+  .container{
+    text-align: center;
+  }
+  .team-member {
+    border: none;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .team-member .card-img-top {
+    border-radius: 10%;
+    width: 150px;
+    height: 200px;
+    margin: 0 auto;
+    object-fit: cover;
+  }
+  .role {
+    color: #3498db;
+  }
+  .card-img-top{
+    padding: 10px;
+  }

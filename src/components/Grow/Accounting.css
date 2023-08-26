@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+p{
+    
+    display: flex;
+    /* margin-left: 50px; */
+    flex-direction: row;
+  text-align: justify;
+    
+}
+
+
+li{
+   margin-left: 0cm;
+   text-align: left;
+}
+.img{
+    width: 1000px;
+    height: 450px;
+}
+.double{
+    width: 700px;
+height: 570px;
+}
+.img-fluid{
+    width: 500px;
+height: 700px;
+}
+.type{
+    width: 750px;
+    height: 450px;
+}
+.fundamenals{
+    width: 750px;
+    height: 450px;
+}
