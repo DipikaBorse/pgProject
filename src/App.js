@@ -20,9 +20,7 @@ import { InvestorForgotPassword } from "./components/SignUp/Investor-Forgot-Pass
 import { Accounting } from "./components/Grow/Accounting";
 import { FinancialPlanning } from "./components/Grow/FinancialPlanning";
 import { DigitalMarketing } from "./components/Grow/DigitalMarketing";
-import { SocialMediaMarketing } from "./components/Grow/SocialMediaMarketing";
-import { SEOMarketing } from "./components/Grow/SEOMarketing";
-import { ContentMarketing } from "./components/Grow/ContentMarketing";
+import { Timemangament } from "./components/Grow/Timemangament";
 
 function App() {
   // const [theme, setTheme] = useState("light");
@@ -54,9 +52,7 @@ function App() {
           
           <Route path="/financialplanning" element={<FinancialPlanning />} />
           <Route path="/digitalmarketing" element={<DigitalMarketing />} />
-          <Route path="/smmarketing" element={<SocialMediaMarketing />} />
-          <Route path="/seomarketing" element={<SEOMarketing />} />
-          <Route path="/contentmarketing" element={<ContentMarketing />} />
+          <Route path="/Timemangament" element={<Timemangament />} />
 
           <Route path="/resources" element={<Resources />} />
           <Route path="/e4gcommunity" element={<E4GCommunity />} />

@@ -1,6 +1,7 @@
 import React from 'react'
 import Accordion from 'react-bootstrap/Accordion';
-import "./Accounting.css"
+import "./style.css"
+
 export const Accounting = () => {
   return (
     <div className="container">

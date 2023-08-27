@@ -61,15 +61,10 @@ export const Header = () => {
             <NavDropdown.Item href="/digitalmarketing">
               Digital Marketing
             </NavDropdown.Item>
-            <NavDropdown.Item href="/smmarketing">
-              Social Media Marketing
+            <NavDropdown.Item href="/Timemangament">
+            Time Management
             </NavDropdown.Item>
-            <NavDropdown.Item href="/seomarketing">
-              SEO Marketing
-            </NavDropdown.Item>
-            <NavDropdown.Item href="/contentmarketing">
-              Content Marketing
-            </NavDropdown.Item>
+            
           </NavDropdown>
 
           <NavDropdown title="Enable" id="basic-nav-dropdown3">
