@@ -69,7 +69,11 @@ export const Header = () => {
 
           <NavDropdown title="Enable" id="basic-nav-dropdown3">
             {/* <NavDropdown.Item href="/courses">Courses</NavDropdown.Item> */}
-            <NavDropdown.Item href="/resources">Resources</NavDropdown.Item>
+            <NavDropdown.Item href="/resources">Resources
+            </NavDropdown.Item>
+            
+          
+            
             <NavDropdown.Divider />
             <NavDropdown.Item href="/e4gcommunity">
               E4G Community

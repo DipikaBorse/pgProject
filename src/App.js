@@ -21,7 +21,16 @@ import { Accounting } from "./components/Grow/Accounting";
 import { FinancialPlanning } from "./components/Grow/FinancialPlanning";
 import { DigitalMarketing } from "./components/Grow/DigitalMarketing";
 import { Timemangament } from "./components/Grow/Timemangament";
-
+import Second from "./components/Enable/Resources/Articles/Second";
+import Third from "./components/Enable/Resources/Articles/Third";
+import First from "./components/Enable/Resources/Articles/First";
+import Visteblogs from "./components/Enable/Resources/Visteblogs";
+import Vistpod from "./components/Enable/Resources/Visitpod";
+import Blogfirst from "./components/Enable/Resources/Blogs/Blogfirst";
+import Blogsecond from "./components/Enable/Resources/Blogs/Blogsecond";
+import Blogthird from "./components/Enable/Resources/Blogs/Blogthird";
+import Fourth from "./components/Enable/Resources/Articles/Fourth";
+import Book from "./components/Enable/Resources/Book";
 function App() {
   // const [theme, setTheme] = useState("light");
   // const toggleTheme = () => {
@@ -55,7 +64,17 @@ function App() {
           <Route path="/Timemangament" element={<Timemangament />} />
 
           <Route path="/resources" element={<Resources />} />
-          <Route path="/e4gcommunity" element={<E4GCommunity />} />
+          <Route path="/first" element={<First />} />
+          <Route path="/second" element={<Second/>} />
+          <Route path="/third" element={<Third />} />
+          <Route path="/fourth" element={<Fourth />} />
+          <Route path="/visteblogs" element={<Visteblogs />} />
+          <Route path="/blogfirst" element={<Blogfirst />} />
+          <Route path="/blogsecond" element={<Blogsecond />} />
+          <Route path="/blogthird" element={<Blogthird />} />
+          <Route path="/vistpod" element={<Vistpod />} />
+          <Route path="/book" element={<Book />} />
+           <Route path="/e4gcommunity" element={<E4GCommunity />} />
           <Route path="/businesstools" element={<BusinessTools />} />
           
           <Route path="/contact" element={<Contact />} />
