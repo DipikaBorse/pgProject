@@ -25,9 +25,9 @@ export const Resources = () => {
 
    <Card >
      <Card.Body  style={{ width: '25rem' }}>
-          <Card.Title> <a href="First">12 Resources for Hispanic Entrepreneurs</a></Card.Title>
+          <Card.Title> <a href="First">How to Identify Your Ideal Customers</a></Card.Title>
           <Card.Text>
-          <img className='first-img' src="/articles/800px-Man_talking_with_female_salesperson_in_a_car_showroom_by_senivpetro.jpg" alt="" /> 
+          <img className='first-img' src="/articles/2_1.png" alt="" /> 
           <hr></hr>
         
      
